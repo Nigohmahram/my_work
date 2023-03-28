@@ -1,5 +1,15 @@
 /* FONTS  */
+@import url(fonts.css);
+
 /* ROOT  */
+:root{
+     --f700: 'Monserrat-Bold';
+     --f400: 'Monserrat-Regular';
+     --ps400: 'Product-Sans-Regular';
+     --dark: #282929;
+     --yellow: #d3a90b;
+}
+
 /* GLOBALL */
 
 html {
@@ -20,8 +30,8 @@ body {
      padding: 0;
      margin: 0;
      flex-direction: column;
-     background-color: #fff;
-     color: #222;
+     background-color: #1e2020;
+     color: #fff;
      font-family: "Arial" sans-serif;
      font-size: 16px;
      line-height: 1.5;
@@ -31,6 +41,9 @@ img {
      max-width: 100%;
      height: auto;
 }
+.bg-light {
+     background-color: #f8f9fa00!important;
+ }
 
 /* AUTOFILL-STYLES */
 input:-webkit-autofill,
@@ -71,7 +84,7 @@ select:-webkit-autofill:focus {
 
 .container {
      width: 100%;
-     max-width: 1200px;
+     max-width: 1100px;
      padding-left: 50px;
      padding-right: 50px;
      margin-left: auto;
@@ -81,6 +94,7 @@ select:-webkit-autofill:focus {
 .main-content {
      flex-grow: 1;
 }
+
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
