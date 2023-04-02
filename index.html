@@ -15,32 +15,129 @@
 </head>
 
 <body>
-<header class="header__block">
-     <div class="container">
-          <div class="row ">
+<header class="header">
+     <div class="header__nav">
+          <div class="container">
                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#"><span>MY</span>WORK</a>
+                    <a class="logo" href="#"><span class="logo__test">MY</span>WORKs</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
+
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item ">
-                          <a class="nav-link " href="#">история</a>
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                          <a class="header__nav-link" href="#">история<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">работы</a>
+                          <a class="header__nav-link" href="#"> работы</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="header__nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              контакты
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link  href="#" >контакты</a>
+                          <a class="header__nav-link disabled" href="#" tabindex="-1" aria-disabled="true">ПОМОЩЬ</a>
                         </li>
                       </ul>
+
                     </div>
                   </nav>
           </div>
+</div>
+
+</header>
+<header class="header__text">
+     <div class="container">
+          <h1 class="header__text-heading">моё портфолио</h1>
+          <p class="header__text-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
      </div>
 </header>
+<main class="main">
+     <section class="main__info">
+          <div class="container">
+               <div class="row justify-content-center">
+                    <h2 class="main__info-heading">история</h2>
+                    <p class="main__info-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillureprehenderit in voluptate velit esse cillureprehenderit in voluptate velit esse cillureprehenderit in voluptate velit </p>
+               </div>
+          </div>
+     </section >
+     <div class="main__slider">
+          <div class="container">
+               <div id="carouselExampleSlidesOnly" class="carousel slide d-flex align-items-center" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                         <div class="d-flex flex-wrap">
+                              <div class="main__slider-images">
+                                   <img class="main__slider-images-i" src="img/study.png" alt="cvsdv" width="350" height="370">
+                              </div>
+                              <section class="main__slider-section col-lg-7">
+                                   <h2 class="main__slider-heading">обучение в <span class="main__slider-span">Web Development school</span></h2>
+                              <p class="main__slider-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dic</p>
+                              </section>
+                         </div>
+                      </div>
+                      <div class="carousel-item">
+                         <div class="d-flex flex-wrap">
+                              <div class="main__slider-images">
+                                   <img class="main__slider-images-i" src="img/laptop.png" alt="cvsdv" width="350" height="370">
+                              </div>
+                              <section class="main__slider-section col-lg-7">
+                                   <h2 class="main__slider-heading">обучение в <span class="main__slider-span">Web Development school</span></h2>
+                              <p class="main__slider-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit  </p>
+                              <p class="main__slider-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt </p>
+                              </section>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+     </div>
+</main>
 
+<div class="main__work">
+     <div class="container">
+          <div class="row justify-content-center">
+               <h2 class="main__info-heading main__work-heading">Работы</h2>
+                    <p class="main__info-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Ut enim ad minim veniam, quis nostrud exercitation.Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          </div>
+     </div>
+     <div class="main__tabs">
+          <div class="container">
+               <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                         <ul class="nav nav-pills mb-3 justify-content-between" id="pills-tab" role="tablist">
+                              <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">NIKE</a>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">SILVER HOUSE</a>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">ORANGE-MARKETING</a>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-tesla" role="tab" aria-controls="pills-tesla" aria-selected="false">TESLA</a>
+                              </li>
+                            </ul>
+                    </div>
+               </div>
+          </div>
+          <div class="tab-content" id="pills-tabContent">
+               <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+               <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+               <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+               <div class="tab-pane fade" id="pills-tesla" role="tabpanel" aria-labelledby="pills-tesla-tab">...</div>
+             </div>
+     </div>
+</div>
 
 
 
