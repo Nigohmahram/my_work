@@ -219,6 +219,117 @@ font-family: var(--f700);
 .main__work-heading{
      margin-top: 50px;
 }
+
+.main__tabs {
+     margin-top: 65px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+     color: #fff;
+     background-color: #007bff;
+ }
+ .pills-profile-tab.nav-link{
+     padding: 10px 30px;
+     color: black;
+     background-color: white!important;
+     border-radius: 20px;
+ }
+
+
+.main__tabs .nav-link  {
+     background-color: white;
+     border-radius: 20px;
+     color: black!important;
+     padding: 6px 25px;
+ }
+ .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+     color: #fff!important;
+     background-color: #1f1f1f;
+ }
+
+ .container-fluid{
+      margin-top: 60px;
+ }
+ .main__tabs .nav-item{
+     margin-bottom: 20px;
+ }
+.main__tabs-img {
+     width: 693px;
+     height: 400px;
+}
+.main__tabs-text {
+     background: #1f1f1f;
+     padding: 25px;
+}
+button{
+     margin-top: 120px;
+     background: #d3a90b;
+     color: white;
+     padding: 6px 25px;
+     border-radius: 20px;
+     text-transform: uppercase;
+     border: none;
+}
+.main__bottom {
+     margin-bottom: 20px;
+     margin-top: 20px;
+}
+
+.main__bottom-html {
+     background: #d3a90b;
+     margin-top: 50px;
+}
+.main__bottom-img {
+     margin: 15px;
+     padding-top: 15px;
+}
+.main__bottom-title {
+     background: #1f1f1f;
+     padding: 20px;
+     border: 2px solid #d3a90b;
+     border-bottom: 2px solid #d3a90b;
+}
+.main__bottom-css{
+     background: #d3a90b;
+     margin: 20px 0;
+     padding: 15px;
+     color: white;
+}
+
+.section__block {
+     background: #1f1f1f;
+}
+
+.section__block-logo {
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 40px;
+}
+
+
+.section__block-link .block-item {
+     display: flex;
+}
+.block-link {
+     margin-right: 50px;
+     list-style: none;
+}
+.block-tab {
+     text-transform: uppercase;
+     color: white;
+}
+.block-tab:hover {
+     color: #d3a90b;
+     text-decoration: none;
+}
+.section__block-bottom {
+     margin-bottom: 10px;
+}
+.block-text {
+     margin-left: 50px;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
